@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Демонтаж профи | Контакты</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <!-- FIXED PHONE -->
+    <a href="tel:+74958775514" class="container_tel">
+        <div class="tel_container pulse">
+                <i class="fas fa-phone"></i>
+            <div class="pulse_button"></div>
+        </div>
+    </a>
+    <!-- BUTTON UP -->
+    <a href="#home" class="container_up">
+        <div class="up_container">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </a>
+    <!-- ORDER FIXED -->
+    <div class="order_over" id="order_over" >
+        <div class="order">
+            <div class="order_close" onclick="showOrder()">
+                <span class="order_bar"></span>
+                <span class="order_bar"></span>
+                <span class="order_bar"></span>
+            </div>
+            <div class="container_order">
+                <h1>Оставьте заявку прямо сейчас!</h1>
+                <form class="order_form" action="#"  id="contactForm" novalidate="novalidate">
+                    <div class="form-group">
+                        <input type="tel" class="form-control order_over_set" id="phone" name="phone" placeholder="Введите телефон*">
+                    </div>
+                    <div class="confidentiality c-black">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Вы автоматически соглашаетесь с политикой конфиденциальности сайта!</p>
+                    </div>
+                        <button  type="submit" value="submit" class="send__button b-flare button__setting">
+                            <i class="fas fa-envelope-open-text"></i>
+                            <div class="nav__link setting">Отправить заявку</div>
+                        </button>
+                </form> 
+            </div>
+        </div>
+    </div>
+    <!-- INTRO -->
+    <div class="intro" id="home">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <!-- LOGO -->
+                    <a href="#intro" class="nav__logo">
+                        <img src="icon.png" alt="Logo">
+                        <h1>Демонтаж <span>PROFI</span><BR><p>ДЕМОНТАЖНАЯ КОМПАНИЯ</p></h1>
+                    </a>  
+                    <ul class="nav__menu">
+                        <li class="nav__item">
+                            <i class="fas fa-home"></i>
+                            <a href="index.html" class="nav__link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <a href="price.html" class="nav__link">Стоимость</a>
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-question-circle"></i>
+                            <a href="about.html" class="nav__link">О компании</a>
+                        </li>
+                        <li class="nav__item">
+                            <i class="fas fa-address-book"></i>
+                            <a href="contact.html" class="nav__link">Контакты</a>
+                        </li>
+                        <a href="tel:+74958775514" class="nav__item b-flare">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="nav__link setting">+7 (495) 877-55-14</div>
+                        </a> 
+                    </ul> 
+                    <!-- BUTTON -->
+                    <a href="tel:+74958775514" class="button_phone b-flare">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="nav__link setting for_adaptive">+7 (495) 877-55-14</div>
+                    </a> 
+                    <!-- HAMB -->
+                    <div class="hamb">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>            
+                </nav>                   
+            </div>            
+        </header>
+        <!-- BANNER -->
+        <section class="section__banner">
+            <div class="container">
+                <h3 class="banner__link">Главная / Контакты</h3>
+                <h1 class="banner__heading">КОНТАКТЫ</h1>
+                <div class="section__header o-white"></div> 
+                
+            </div>         
+        </section>
+    </div> 
+    <!-- MAIN -->
+    <main id="main" class="main">
+        <!-- section__services -->
+        <section class="section__contact">
+            <div class="container contact__container">
+                <div class="contact__left_side">
+                    <div class="contact__details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Адрес</div>
+                        <div class="text-one">г. Москва</div>
+                        <div class="text-two">Пресненская наб., 8 стр 1</div>
+                    </div>
+                    <div class="contact__details">
+                        <i class="fas fa-phone"></i>
+                        <div class="topic">Телефон</div>
+                        <div class="text-one">8-800-000-00-00</div>
+                        <div class="text-two">8-900-000-00-00</div>
+                    </div>
+                    <div class="contact__details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">support@site.com</div>
+                        <div class="text-two">admin@site.com</div>
+                    </div>
+                </div>
+                <div class="contact__right_side">
+                    <div class="topic-text">Отправьте нам сообщение</div>
+                    <p>
+                      Если у вас есть какие-то вопросы, предложения по сотрудничеству или
+                      рекламе - заполните форму ниже.
+                    </p>
+                    <form class="order_form" action="#"  id="contactForm" novalidate="novalidate">
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Введите телефон*">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Введите телефон*">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-textarea" name="message" id="message" rows="1" placeholder="Введите сообщение"></textarea>
+                        </div>
+                        <div class="confidentiality c-black">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Вы автоматически соглашаетесь с политикой конфиденциальности сайта!</p>
+                        </div>
+                            <button  type="submit" value="submit" class="send__button b-flare button__setting">
+                                <i class="fas fa-envelope-open-text"></i>
+                                <div class="nav__link setting">Отправить заявку</div>
+                            </button>
+                    </form> 
+                </div>
+            </div>   
+        </section>    
+        <section class="section__action">
+            <div class="container action__container">
+                <div class="section__action_left">
+                    <h1 class="action__header">Акция «3 дня на принятие решения»</h1>
+                    <h1 class="action__discription">При заказе демонтажа дома до <span>11 ноября</span> вы получаете скидку <span>10%</span> !</h1>
+                </div>
+                <div class="section__action_right">
+                    <a class="nav__item b-flare " onclick="showOrder()">
+                        <div class="nav__link setting">Узнать об акции</div>
+                    </a>  
+                </div>
+            </div>
+        </section>   
+        <section class="section__map">
+            <div class="container map__container">
+                <h1 class="section__heading">Наши бригады рядом с вами</h1>
+                <h3 class="section__discription">Работаем по всей Москве, Московской области и в радиусе 1000км</h3>
+                <div class="section__header"></div> 
+            </div> 
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa5509f7909d3368e75bcf28c0c2d716521a45631aa36f43bbba35160e6bc5dc9&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </section>        
+        <section class="section__order">
+            <div class="container">
+                <h1 class="section__heading c-white">Нашли дешевле или остались вопросы? Оставьте заявку и мы сделаем лучшее предложение</h1>
+                <div class="section__header o-white"></div>
+                <form class="order_form_end" action="index.html" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="form-group_end">
+                        <input type="tel" class="form-control setting_for_end" id="phone" name="phone" placeholder="Введите телефон*">
+                    </div>
+                        <button type="submit" value="submit" class="send__button b-flare" id="setting">
+                            <div class="nav__link setting">
+                                <i class="fas fa-reply"></i>Отправить заявку
+                            </div>
+                        </button>
+                </form> 
+                <div class="confidentiality">
+                    <i class="fas fa-shield-alt"></i>
+                    <p>Вы автоматически соглашаетесь с политикой конфиденциальности сайта!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="container footer__container">
+            <div class="footer__list">
+                <div class="footer__list_item">
+                    <h2 class="footer_head">© «Демонтаж PROFI» – демонтажная компания, 2021</h2>
+                    <a href="confidentiality.html" class="footer_disciption">Политика конфиденциальности</a>
+                    <br>
+                </div>
+                <div class="footer__list_item">
+                    <div class="footer__list_item_link">
+                        <i class="fas fa-phone-volume"></i>  
+                        <a href="tel:74958775514" class="footer_head">+7 (495) 877-55-14</a>                            
+                    </div>  
+                    <div class="footer__list_item_link">
+                        <i class="fas fa-envelope"></i>  
+                        <a href="mailto:info@demontajprofi.ru" class="footer_head">info@demontajprofi.ru</a>                          
+                    </div>         
+                </div>
+                <div class="footer__list_item">
+                    <div class="footer__list_item_link">
+                        <i class="fas fa-map-marker-alt"></i>       
+                        <h2 class="footer_head">129323, Москва, ул. Сельскохозяйственная, д.38 к.2</h2>                         
+                    </div>  
+                    <div class="footer__list_item_link">
+                        <i class="far fa-clock"></i>
+                        <h2 class="footer_head">Работает с 7:00 до 21:00</h2>                            
+                    </div>                          
+                </div>
+            </div>                
+        </div>
+    </footer> 
+    <!-- SCRIPT -->
+    <script src="js/hamb.js"></script>
+    <script src="js/show__header.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/readMore.js"></script>
+    <script src="js/showOrder.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/showQuestion.js"></script>
+    
+</body>
+</html>
